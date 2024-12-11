@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New York Jets Fan Zone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/jets-logo.png" alt="Jets Logo" class="jets-logo">
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="fan-zone.html" class="active">Fan Zone</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="fan-zone-hero">
+      <h1>Welcome to the Fan Zone</h1>
+      <p>Engage with fellow Jets fans and show your team spirit!</p>
+    </section>
+
+    <!-- Fan Quiz -->
+<section class="fan-quiz">
+  <!-- Quiz Introduction Section -->
+  <div class="quiz-intro">
+    <div class="quiz-image">
+      <img src="images/nfl-logo.png" alt="NFL Logo">
+    </div>
+    <div class="quiz-content">
+      <h2>Test Your Knowledge</h2>
+      <p>Challenge yourself with our New York Jets history quiz!</p>
+      <button id="start-quiz" class="quiz-button">Take the Quiz</button>
+    </div>
+  </div>
+  
+  <!-- Quiz Container Section -->
+  <div id="quiz-container" class="hidden">
+    <h2>New York Jets Quiz</h2>
+    <div id="quiz-question" class="quiz-question"></div>
+    <ul id="quiz-options" class="quiz-options"></ul>
+    <button id="submit-answer" class="quiz-button">Submit Answer</button>
+    <div id="quiz-feedback" class="quiz-feedback"></div>
+  </div>
+</section>
+
+
+    <!-- Photo Wall -->
+    <section class="photo-wall">
+      <h2>Fan Photo Wall</h2>
+      <div class="photo-gallery">
+        <img src="images/cheering.png" alt="Fan cheering at the game">
+        <img src="images/tailgating.png" alt="Fans tailgating">
+        <img src="images/touchdown-celly.png" alt="Jets fans celebrating a touchdown">
+      </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown">
+      <h2>Next Game Countdown</h2>
+      <div id="countdown-timer" class="timer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2024 New York Jets Fan Club. All rights reserved.</p>
+      <div class="social-media-links">
+        <a href="https://x.com/nyjets" target="_blank">
+          <img src="images/x-icon.png" alt="X" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/Jets/" target="_blank">
+          <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://instagram.com/nyjets" target="_blank">
+          <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="fanzone.js"></script>
+</body>
+</html>
